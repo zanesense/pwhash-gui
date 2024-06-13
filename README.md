@@ -1,4 +1,4 @@
-# pwHash GUI
+# pyhash GUI
 
 A simple GUI application to generate hashed passwords using various hashing algorithms. The application is built using Python's `tkinter` library and supports SHA-256, SHA-1, MD5, SHA-512, SHA-384, and SHA-224 hashing algorithms.
 
@@ -17,8 +17,8 @@ A simple GUI application to generate hashed passwords using various hashing algo
 1. Clone the repository or download the source code.
 
     ```bash
-    git clone https://github.com/zanesense/pwhash-gui.git
-    cd pwhash-gui
+    git clone https://github.com/zanesense/pyhash-gui.git
+    cd pyhash-gui
     ```
 
 2. Run the application.
