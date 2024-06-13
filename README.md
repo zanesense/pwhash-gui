@@ -1,40 +1,49 @@
-# pyhash GUI
+# pyhash
 
-A simple GUI application to generate hashed passwords using various hashing algorithms. The application is built using Python's `tkinter` library and supports SHA-256, SHA-1, MD5, SHA-512, SHA-384, and SHA-224 hashing algorithms.
+This is a simple password hash generator application built with PyQt5 in Python. It allows users to generate hashed passwords using different hash algorithms such as SHA-256, SHA-1, MD5, SHA-512, SHA-384, and SHA-224.
 
 ## Features
 
-- Input a password and generate its hash using the selected algorithm.
-- Supports multiple hashing algorithms: SHA-256, SHA-1, MD5, SHA-512, SHA-384, and SHA-224.
-- Copy the generated hash to the clipboard with a single click.
+- Generate hashed passwords using various hash algorithms.
+- Copy generated hashes to the clipboard with a single click.
 
-## Prerequisites
+## Requirements
 
 - Python 3.x
+- PyQt5
+- qdarkstyle
 
 ## Installation
 
-1. Clone the repository or download the source code.
+1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/zanesense/pyhash-gui.git
-    cd pyhash-gui
+    ```
+    git clone https://github.com/zanesense/pyhash-gui.git pyhash
     ```
 
-2. Run the application.
+2. Install the required dependencies:
 
-    ```bash
-    python hasher.py
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. Run the application:
+
+    ```
+    python password_hash_generator.py
     ```
 
 ## Usage
 
-1. Open the application.
-2. Enter the password you want to hash in the "Enter Password" field.
-3. Select the desired hashing algorithm from the dropdown menu.
-4. Click the "Generate Hash" button to generate the hashed password.
-5. The hashed password will be displayed in the text box below.
-6. To copy the hashed password to the clipboard, click the "Copy to Clipboard" button.
+1. Enter the password in the "Enter Password" field.
+2. Select the desired hash algorithm from the dropdown menu.
+3. Click on the "Generate Hash" button to generate the hashed password.
+4. The hashed password will be displayed in the "Hashed Password" field.
+5. Click on the "Copy to Clipboard" button to copy the hashed password to the clipboard.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any problems or have any suggestions for improvements.
 
 ## License
 
