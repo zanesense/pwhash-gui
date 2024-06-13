@@ -30,7 +30,7 @@ This is a simple password hash generator application built with PyQt5 in Python.
 3. Run the application:
 
     ```
-    python password_hash_generator.py
+    python hasher.py
     ```
 
 ## Usage
