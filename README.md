@@ -36,24 +36,6 @@ A simple GUI application to generate hashed passwords using various hashing algo
 5. The hashed password will be displayed in the text box below.
 6. To copy the hashed password to the clipboard, click the "Copy to Clipboard" button.
 
-## Code Explanation
-
-### `generate_hash()`
-
-This function retrieves the password from the input field and the selected hashing algorithm from the dropdown menu. It then generates the hashed password using the specified algorithm and displays it in the output text box.
-
-### `copy_to_clipboard()`
-
-This function copies the generated hashed password to the clipboard.
-
-### GUI Components
-
-- `password_label` and `password_entry`: Input field for entering the password.
-- `hash_option` and `hash_dropdown`: Dropdown menu for selecting the hashing algorithm.
-- `generate_button`: Button to generate the hashed password.
-- `output_label` and `hash_output`: Text box to display the generated hashed password.
-- `copy_button`: Button to copy the hashed password to the clipboard.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
